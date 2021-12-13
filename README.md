@@ -1,4 +1,4 @@
-Sample project to reproduce an authentication issue with [Bot Framework SDK](https://github.com/microsoft/botbuilder-dotnet) and MS Teams, in a corporate environment (**with a dedicated tenant**).
+Sample project to reproduce [an authentication issue](https://stackoverflow.com/q/70333150/249742) with [Bot Framework SDK](https://github.com/microsoft/botbuilder-dotnet) and MS Teams, in a corporate environment (**with a dedicated tenant**).
 
 # Required to run this project
 
