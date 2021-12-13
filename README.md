@@ -3,13 +3,13 @@ Sample project to reproduce an authentication issue with [Bot Framework SDK](htt
 # Required to run this project
 
 - `appsettings.json`: 
-  - MicrosoftAppId: app ID for bot in MS Teams
-  - MicrosoftAppPassword: app password for bot in MS Teams
-  - ChannelAuthTenant: tenant id or tenant name (MS Teams)
+  - `MicrosoftAppId`: app ID for bot in MS Teams
+  - `MicrosoftAppPassword`: app password for bot in MS Teams
+  - `ChannelAuthTenant`: tenant id or tenant name (MS Teams)
 
 # How it works
 
-Run **TeamsChannelTester**, go to [https://](https://localhost:5001/swagger/index.html), paste or create an MS Teams bot activity in "Try It Out" operation "/api/messages". 
+Run **TeamsChannelTester**, go to https://localhost:5001/swagger/index.html, paste or create an MS Teams bot activity in "Try It Out" operation "/api/messages". 
 
 This will trigger a request to MS Teams to get conversation members from received activity.
 
